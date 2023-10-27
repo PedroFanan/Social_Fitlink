@@ -1,12 +1,12 @@
-import React from 'react';
-import styles from '../styles/Perfil.module.css'; // Certifique-se de criar um arquivo CSS separado para estilos de perfil
+import React from "react";
+import styles from "../styles/Perfil.module.css"; // Certifique-se de criar um arquivo CSS separado para estilos de perfil
 
 export default function ProfilePage() {
   // Substitua os dados de perfil fictícios pelos dados reais do usuário
   const userProfile = {
-    username: 'Thomas-fit',
-    fullName: 'Thomas Fourier',
-    bio: '-Fisiculturista',
+    username: "Thomas-fit",
+    fullName: "Thomas Fourier",
+    bio: "-Fisiculturista",
     posts: 6,
     followers: 250_000,
     following: 125_000,

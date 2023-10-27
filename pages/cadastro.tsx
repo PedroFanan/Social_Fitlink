@@ -38,7 +38,7 @@ export default function CadastroPage() {
     } catch (err) {
       setError(err.message);
     }
-  }
+  };
 
   return (
     <div className={styles.background}>
